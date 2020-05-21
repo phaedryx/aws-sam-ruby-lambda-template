@@ -1,1 +1,6 @@
+# This Gemfile is for testing. Modify app/Gemfile for your lambda gems.
 source 'https://rubygems.org'
+
+group :test do
+  gem 'minitest'
+end

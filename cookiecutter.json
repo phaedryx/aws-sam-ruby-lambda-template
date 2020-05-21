@@ -1,4 +1,5 @@
 {
-  "project_name": "Name of the project",
-  "runtime": "ruby2.7"
+  "project_name": "project_name_here",
+  "aws_runtime": "ruby2.7",
+  "ruby_version": "ruby-2.7.0"
 }

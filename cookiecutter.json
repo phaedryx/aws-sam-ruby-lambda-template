@@ -1,3 +1,4 @@
 {
+  "project_name": "Ruby Lambda Template",
   "runtime": "ruby2.7"
 }

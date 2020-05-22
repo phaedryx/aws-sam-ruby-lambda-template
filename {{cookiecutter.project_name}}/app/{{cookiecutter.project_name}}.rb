@@ -18,7 +18,7 @@ def lambda_handler(event:, context:)
       identity: context.identity,
       client_context: context.client_context,
     },
-    environment: ENV.to_h
+    environment: ENV.to_h,
     available_gems: available_gems.split("\n"),
   }
 rescue => err

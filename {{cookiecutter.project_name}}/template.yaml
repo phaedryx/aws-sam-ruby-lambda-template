@@ -1,3 +1,4 @@
+# https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: {{cookiecutter.project_name}}
@@ -8,8 +9,9 @@ Globals:
     Timeout: 10
     MemorySize: 128
 
+# https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-resource-function.html
 Resources:
-  LambdaFunction:
+  LambdaFunction: # https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: app/
